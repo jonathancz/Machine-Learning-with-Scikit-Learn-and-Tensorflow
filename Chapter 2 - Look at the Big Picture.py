@@ -93,6 +93,36 @@ housing = load_housing_data()
 housing.head()
 
 
+# In[14]:
+
+
+housing.info()
+
+
+# In[15]:
+
+
+housing["ocean_proximity"].value_counts()
+
+
+# In[17]:
+
+
+# Shows a summary of the numerical attributes
+housing.describe() 
+
+
+# In[23]:
+
+
+# A histogram shows the number of instances (on the vertical axis) that have a given value range (horizontal axis)
+
+# %matplotlib inline
+# import matplotlib.pyplot as plt
+# housing.hist(bins=50, figsize=(20,15))
+# plt.show()
+
+
 # In[ ]:
 
 
